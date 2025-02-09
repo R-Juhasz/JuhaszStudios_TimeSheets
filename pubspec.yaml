@@ -1,0 +1,31 @@
+gitname: juhaszstdios_timesheets
+description: "Application to make timesheets and convert them to PDF to be sent by email"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: "^3.5.4"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.0.0
+  pdf: ^3.9.0
+  printing: ^5.9.0
+  flutter_email_sender: ^6.0.3
+  path_provider: ^2.0.14
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
